@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+:root {
+  --font-thai: 'IBM Plex Sans Thai', -apple-system, BlinkMacSystemFont, 'Noto Sans Thai', sans-serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, SFMono-Regular, monospace;
+}
+
+body {
+  font-family: var(--font-thai);
+}
+
+.font-thai {
+  font-family: var(--font-thai);
+}
+
+.font-mono-code {
+  font-family: var(--font-mono);
+}
